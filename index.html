@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tarea 5 - JavaScript</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <!-- Bootstrap opcional si quieres mejorar el diseño -->
+</head>
+<body>
+  <header>
+    <h1>Tarea 5 - Ejemplos de JavaScript</h1>
+  </header>
+
+    <main>
+    <!-- SECCIÓN 1: Control de flujo y manejo de errores -->
+    <section id="control-flujo">
+      <h2>1. Control de flujo y manejo de errores</h2>
+      <button onclick="verificarEdad()">Ejemplo if...else</button>
+      <button onclick="elegirFruta()">Ejemplo switch</button>
+      <button onclick="manejarError()">Ejemplo try...catch</button>
+    </section>
+
+    <!-- SECCIÓN 2: Bucles e iteración -->
+<section id="bucles">
+  <h2>2. Bucles e iteración</h2>
+  <button onclick="ejemploFor()">Ejemplo for</button>
+  <button onclick="ejemploWhile()">Ejemplo while</button>
+  <button onclick="ejemploDoWhile()">Ejemplo do...while</button>
+  <button onclick="ejemploForEach()">Ejemplo forEach</button>
+</section>
+
+<!-- Sección 3: Funciones -->
+<section id="funciones">
+  <h2>3. Funciones</h2>
+
+  <!-- Botón que llama a una función declarada -->
+  <button onclick="funcionDeclarada()">Función Declarada</button>
+
+  <!-- Botón que llama a una función expresada -->
+  <button onclick="funcionExpresada()">Función Expresada</button>
+
+  <!-- Botón que llama a una función flecha -->
+  <button onclick="funcionFlecha()">Función Flecha</button>
+
+  <!-- Botón que llama a una función anónima (usada dentro de otra función) -->
+  <button onclick="funcionAnonima()">Función Anónima</button>
+</section>
+
+<h2>Lista de Frutas</h2>
+<ul id="listaFrutas"></ul>
+
+<h2>Datos del Estudiante</h2>
+<div id="infoEstudiante"></div>
+
+<h2>Mensaje desde la Función</h2>
+<div id="mensajeFuncion"></div>
+
+<h2>Mensaje retornado por una función</h2>
+<div id="mensajeRetorno"></div>
+
+<h2>Texto interactivo</h2>
+<p id="textoHover">Pasa el mouse sobre este texto para cambiar su estilo.</p>
+
+<h2>Selecciona una fruta</h2>
+<select id="frutaSelect">
+  <option value="">--Seleccionar--</option>
+  <option value="manzana">Manzana</option>
+  <option value="banana">Banana</option>
+  <option value="fresa">Fresa</option>
+</select>
+
+<p id="mensajeFruta"></p>
+
+<h2>Presiona una tecla</h2>
+<input type="text" id="teclaInput" placeholder="Escribe algo...">
+<p id="mensajeTecla"></p>
+
+
+<img id="imagenHover" src="img/zanahoria.png" alt="Zanahoria" width="150">
+<p id="mensajeHover"></p>
+
+<h2>Mostrar Imagen de Zanahoria</h2>
+<button id="mostrarImagenBtn">Mostrar Imagen</button>
+<div id="contenedorImagen"></div>
+
+<script src="eventoClickMostrarImagen.js"></script>
+<script src="eventoOnKeydown.js"></script>
+<script src="eventoOnChange.js"></script>
+<script src="eventoHover.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
